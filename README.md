@@ -2,6 +2,20 @@
 ## Built entirely on visual studio in C++, time taken: 3 days.
 </br>
 
+You can find the link to the C++ file [here](https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/Document-Scanner.cpp)
+
+## Results:
+|Index|Original Image|Contoured|Perspective Warp|Final Cropped|
+|:----:|:----:|:----:|:----:|:----:|
+|1|<img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/one.jpg" width="150" height="300" />| <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/one_contour.png" width="150" height="300" />  |<img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/one_warp.png" width="200" height="300" />     | <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/one_crop.png" width="200" height="300" />  </br> |
+|2|<img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/two.jpg" width="250" height="250" />| <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/two_contour.png" width="250" height="275" />  |<img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/two_warp.png" width="175" height="225" />     | <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/two_crop.png" width="175" height="225" />  </br> |
+|3|<img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/three.jpg" width="250" height="250" />| <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/three_contour.png" width="250" height="275" />  |<img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/three_warp.png" width="175" height="225" />     | <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/three_crop.png" width="175" height="225" />  </br> |
+|4|<img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/four.jpg" width="250" height="300" />| <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/four_contour.png" width="250" height="300" />  |<img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/four_warp.png" width="250" height="300" />     | <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/four_crop.png" width="250" height="300" />  </br> |
+</br>
+
+</br>
+
+## Process
 --> Reading image file to a matrix data type.
 </br>
 <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/1.png" width="600" height="100" />
@@ -30,9 +44,3 @@ We use the above logic to correctly reorder the vertices correctly as to avoid a
 --> Another step which i implemented is to slightly crop the image, using an inset of 10 points on all edges of the final image. For better clarity.
 </br>
 <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/7.png" width="713" height="82" />
-
-# Results:
-|Index|Original Image|Contoured|Perspective Warp|Final Cropped|
-|:----:|:----:|:----:|:----:|:----:|
-|1|<img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/one.jpg" width="150" height="300" />| <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/one_contour.png" width="150" height="300" />  |<img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/one_warp.png" width="200" height="300" />     | <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/one_crop.png" width="200" height="300" />  </br> |
-|2|<img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/two.jpg" width="300" height="300" />| <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/one_contour.png" width="150" height="300" />  |<img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/one_warp.png" width="300" height="300" />     | <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/one_crop.png" width="200" height="300" />  </br> |
