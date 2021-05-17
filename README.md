@@ -44,3 +44,15 @@ We use the above logic to correctly reorder the vertices correctly as to avoid a
 --> Another step which i implemented is to slightly crop the image, using an inset of 10 points on all edges of the final image. For better clarity.
 </br>
 <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/7.png" width="713" height="82" />
+
+</br>
+
+Final Word:
+
+> This was the 2nd project that i've involved myself in OpenCV with, overall it was a fun project, however i tried to make it a real-time scanner but for some reason my laptop just wouldn't make up its mind, sometimes it would work and other times it would show an error like this:
+> </br>
+> <img src="https://github.com/prahuljose/OpenCV-Document-Scanner/blob/main/ExtraFiles/error.png" width="350" height="300" />
+> </br>
+> But however much i tried, i couldn't get stable results, so i abandoned the attempt :(
+> </br>
+> But all in all, it was a fun project!
