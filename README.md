@@ -47,7 +47,7 @@ We use the above logic to correctly reorder the vertices correctly as to avoid a
 
 </br>
 
-Final Word:
+## Final Word:
 
 > This was the 2nd project that i've involved myself in OpenCV with, overall it was a fun project, however i tried to make it a real-time scanner but for some reason my laptop just wouldn't make up its mind, sometimes it would work and other times it would show an error like this:
 > </br>
